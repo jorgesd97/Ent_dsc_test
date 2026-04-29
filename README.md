@@ -1,0 +1,2 @@
+# Prediccion de churn para clientes de una TELCO
+Para el desarrollo de este proyecto se usará los datasets "dataset_prueba.csv" para el analisis y entrenamiento asi coomo la prueba de la solución y el archivo "data_dict.csv" para conocer la base.
