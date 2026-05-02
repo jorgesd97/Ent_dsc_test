@@ -110,16 +110,6 @@ jupyter notebook notebooks/01_EDA.ipynb
 # 2. Modelamiento y evaluación
 jupyter notebook notebooks/02_Modelado.ipynb
 ```
-
-### En Google Colab
-Cada notebook tiene una celda al inicio para montar
-Google Drive y cargar los datos desde:
-```python
-from google.colab import drive
-drive.mount('/content/drive')
-PATH = '/content/drive/MyDrive/churn-telco/'
-```
-
 ---
 
 ## Dataset
