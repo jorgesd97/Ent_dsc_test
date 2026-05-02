@@ -54,6 +54,7 @@ churn-telco/
 ├── decisiones.md                   ← resumen de decisiones
 ├── requirements.txt
 └── README.md
+```
 ## Descripción de los notebooks
 ### 01_EDA.ipynb — Análisis Exploratorio
 Contiene el análisis completo de los datos y la preparación
