@@ -48,7 +48,7 @@
 
 | # | Riesgo | Mitigación |
 |---|--------|------------|
-| 1 | Solo 2 meses de historia → sin aceleración de caída de ARPU | Incorporar Mayo cuando esté disponible |
+| 1 | Solo 2 meses de historia | Incorporar Mayo cuando esté disponible |
 | 2 | Churn creciente (1.04% → 1.90%) → degradación del modelo | Reentrenamiento trimestral o cuando P@2000 < 33.33% |
 | 3 | Desbalance extremo (1:77) → sensible a cambios en producción | Monitoreo mensual de distribución de features |
 | 4 | Margen de seguridad de solo ~4 puntos sobre break-even | Monitoreo mensual de P@2000 |
