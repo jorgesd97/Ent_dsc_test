@@ -145,14 +145,14 @@ Las más relevantes:
 ---
 
 ## Requisitos
-pandas>=1.3.0
-numpy>=1.21.0
-scikit-learn>=1.0.0
-xgboost>=1.5.0
-imbalanced-learn>=0.8.0
-matplotlib>=3.4.0
-seaborn>=0.11.0
-joblib>=1.0.0
+pandas>=1.3.0 <br>
+numpy>=1.21.0 <br>
+scikit-learn>=1.0.0 <br>
+xgboost>=1.5.0 <br>
+imbalanced-learn>=0.8.0 <br>
+matplotlib>=3.4.0 <br>
+seaborn>=0.11.0 <br>
+joblib>=1.0.0 <br>
 
 ---
 
