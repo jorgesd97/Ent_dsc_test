@@ -23,19 +23,9 @@ maximizando el ROI bajo las siguientes restricciones:
 
 ---
 
-## Resultado del modelo final
-
-| Métrica | Valor |
-|---|---|
-| Modelo | Random Forest (Tuned Recall) |
-| P@2000 | 37.25% |
-| Churners capturados (top 2.000) | 745 / 1.882 |
-| Lift vs aleatorio | 19.6x |
-| ROI estimado | **+$235.000 CLP** |
-
----
-
 ## Estructura del repositorio
+
+```text
 churn-telco/
 │
 ├── data/
@@ -59,12 +49,11 @@ churn-telco/
 ├── outputs/
 │   ├── top2000_campaña.csv         ← clientes a contactar
 │   ├── ranking_completo.csv        ← todos los clientes rankeados
-│   └── figures/                    ← gráficos generados
 │
 ├── decisiones.md                   ← resumen de decisiones
 ├── requirements.txt
 └── README.md
-
+```
 ## Descripción de los notebooks
 ### 01_EDA.ipynb — Análisis Exploratorio
 Contiene el análisis completo de los datos y la preparación
@@ -95,10 +84,11 @@ de negocio:
 3. Comparación de 3 modelos: XGBoost, Random Forest, GBM
 4. Análisis de 4 escenarios de datos
 5. Ensambles (voting simple y ponderado)
-6. Feature importance y selección de variables
 7. Hyperparameter tuning optimizado por Recall
 8. Análisis de negocio: P@2000, ROI, Lift, Gain
 9. Priorización de los 2.000 clientes para campaña
+10. Feature importance y selección de variables
+10. Mejoras de modelo
 
 **Output:** `modelo_rf_tuned_recall_final.pkl`,
 `top2000_campaña.csv`, `ranking_completo.csv`
