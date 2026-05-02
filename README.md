@@ -23,19 +23,9 @@ maximizando el ROI bajo las siguientes restricciones:
 
 ---
 
-## Resultado del modelo final
-
-| Métrica | Valor |
-|---|---|
-| Modelo | Random Forest (Tuned Recall) |
-| P@2000 | 37.25% |
-| Churners capturados (top 2.000) | 745 / 1.882 |
-| Lift vs aleatorio | 19.6x |
-| ROI estimado | **+$235.000 CLP** |
-
----
-
 ## Estructura del repositorio
+
+```text
 churn-telco/
 │
 ├── data/
@@ -64,7 +54,6 @@ churn-telco/
 ├── decisiones.md                   ← resumen de decisiones
 ├── requirements.txt
 └── README.md
-
 ## Descripción de los notebooks
 ### 01_EDA.ipynb — Análisis Exploratorio
 Contiene el análisis completo de los datos y la preparación
