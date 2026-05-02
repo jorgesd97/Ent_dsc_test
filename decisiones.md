@@ -62,3 +62,15 @@
 3. **LightGBM** → mejor rendimiento en datasets con desbalance extremo
 4. **Producción:** top 15 variables + monitoreo mensual + reentrenamiento por umbral 33.33%
 5. **Medios propios** (SMS, email) para clientes de propensión media → ampliar alcance sin costo de $1.000
+
+## Adicional
+Se construyeron variables de cambio entre meses (delta_arpu,
+delta_total_og_mou, etc.) pero su incorporación al modelo
+deterioró el P@2000 de ~35% a ~27%.
+
+Causa: las 99.999 filas de Junio tienen delta=NaN al no tener
+mes anterior. Imputar con 0 introduce ruido porque el modelo
+interpreta "sin cambio" cuando en realidad "sin información".
+
+Con Mayo disponible los deltas serían calculables sin NaN
+para todos los clientes. 
