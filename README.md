@@ -1,5 +1,5 @@
 # Predicción de Churn — Clientes TELCO
-## Challenge Data Scientist — Entel
+## Challenge Data Scientist
 
 ---
 
@@ -157,4 +157,4 @@ joblib>=1.0.0 <br>
 ---
 
 ## Autor
-Jorge Soto - Challenge Data Scientist Entel
+Jorge Soto - Challenge Data Scientist
