@@ -1,4 +1,4 @@
-# Resumen de Decisiones — Challenge Data Scientist Entel
+# Resumen de Decisiones — Challenge Data Scientist
 ## Predicción de Churn TELCO
 
 ---
